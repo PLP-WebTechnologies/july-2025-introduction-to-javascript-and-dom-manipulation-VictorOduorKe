@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
+    <header class="header">
+
+    </header>
+    <section id="section_one">
         <h1>Mastering JavaScript Basics</h1>
         <p>Welcome to the JavaScript basics tutorial!</p>
         <form action="" class="user-form">
@@ -18,7 +21,7 @@
         <p class="response"></p>
     </section>
 
-    <section class="functions">
+    <section class="functions" id="section_two">
         <h2>JavaScript Functions</h2>
         <p>Functions are reusable blocks of code that perform a specific task.</p>
         <form action="" class="calculator">
@@ -35,10 +38,11 @@
             </select>
             <button type="submit">Submit</button>
             <p class="calc-response"></p>
+            <p class="second-response"></p>
         </form>
     </section>
 
-    <section class="loops">
+    <section class="loops" id="section_three">
         <h2>JavaScript Loops</h2>
         <p>Loops allow you to execute a block of code repeatedly.</p>
         <form action="" class="loop-form">
@@ -51,7 +55,7 @@
             <p class="loop-response"></p>
         </div>
     </section>
-<section class="dom-manipulation">
+<section class="dom-manipulation" id="section_four">
     <h2>JavaScript DOM Manipulation</h2>
     <p>Manipulating the DOM is a key part of web development.</p>
    <form action="" class="background-area">
@@ -60,6 +64,10 @@
         <button type="submit">Change Background</button>
         <p class="bg-response"></p>
    </form>
+   <button class="add-header">Add header</button>
+   <section class="add-form">
+    <button class="generate-form">Generate a form</button>
+   </section>
 </section>
     <script src="script.js"></script>
 </body>

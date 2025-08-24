@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
   background: #f4f7fa;
   color: #333;
@@ -99,4 +101,33 @@ button:hover {
 
 .bg-response {
   color: #e67e22; /* orange for background feedback */
+}
+
+header{
+    background-color: blue;
+    padding:10px;
+    display: none;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    h1{
+        color: white;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap:10px;
+    align-items: center;
+}
+header nav ul li:hover{
+    box-shadow: 0 0 10px black;
+    padding:10px 0;
+    border-radius: 5px;
 }
